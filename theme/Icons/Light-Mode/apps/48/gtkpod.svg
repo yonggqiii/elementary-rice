@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg6649" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="48" width="48" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <defs id="defs6651">
+  <radialGradient id="radialGradient3013" gradientUnits="userSpaceOnUse" cy="43.5" cx="4.993" gradientTransform="matrix(2.0038 0 0 1.4 27.988 -17.4)" r="2.5">
+   <stop id="stop2883" stop-color="#181818" offset="0"/>
+   <stop id="stop2885" stop-color="#181818" stop-opacity="0" offset="1"/>
+  </radialGradient>
+  <radialGradient id="radialGradient3015" gradientUnits="userSpaceOnUse" cy="43.5" cx="4.993" gradientTransform="matrix(2.0038 0 0 1.4 -20.012 -104.4)" r="2.5">
+   <stop id="stop2889" stop-color="#181818" offset="0"/>
+   <stop id="stop2891" stop-color="#181818" stop-opacity="0" offset="1"/>
+  </radialGradient>
+  <linearGradient id="linearGradient6647" y2="39.999" gradientUnits="userSpaceOnUse" x2="25.058" y1="47.028" x1="25.058">
+   <stop id="stop2895" stop-color="#181818" stop-opacity="0" offset="0"/>
+   <stop id="stop2897" stop-color="#181818" offset=".5"/>
+   <stop id="stop2899" stop-color="#181818" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient4650" y2="43" gradientUnits="userSpaceOnUse" x2="24" gradientTransform="matrix(1 0 0 1.1081 .000004 -3.5946)" y1="5" x1="24">
+   <stop id="stop3926-3" stop-color="#fff" offset="0"/>
+   <stop id="stop3928-91" stop-color="#fff" stop-opacity=".23529" offset=".063165"/>
+   <stop id="stop3930-6" stop-color="#fff" stop-opacity=".15686" offset=".95056"/>
+   <stop id="stop3932-6" stop-color="#fff" stop-opacity=".39216" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient2925" x1="12.938" gradientUnits="userSpaceOnUse" y1="8.4375" gradientTransform="matrix(.64935 0 0 .75001 8.4156 4.9996)" x2="15.25" y2="19.812">
+   <stop id="stop6594-0-2" stop-color="#fff" stop-opacity=".27451" offset="0"/>
+   <stop id="stop6596-2-5" stop-color="#fff" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <radialGradient id="radialGradient2429" cx="19.063" gradientUnits="userSpaceOnUse" cy="8.4179" r="11" gradientTransform="matrix(1.5626 0 0 1.3591 -12.52 .39355)">
+   <stop id="stop9938" stop-color="#575757" offset="0"/>
+   <stop id="stop9940" stop-color="#333" offset="1"/>
+  </radialGradient>
+  <linearGradient id="linearGradient4721" y2="5.9236" gradientUnits="userSpaceOnUse" x2="24.102" y1="26.512" x1="24.756">
+   <stop id="stop4725" stop-color="#fff" offset="0"/>
+   <stop id="stop4727" stop-color="#fff" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient2867-449-88-871-390-598-476-591-434-148-57-177-8-3-3-6-4-8-8-8-5">
+   <stop id="stop3750-1-0-7-6-6-1-3-9-3" stop-color="#505050" offset="0"/>
+   <stop id="stop3752-3-7-4-0-32-8-923-0-7" stop-color="#2b2b2b" offset=".26238"/>
+   <stop id="stop3754-1-8-5-2-7-6-7-1-9-8" stop-color="#0a0a0a" offset=".70495"/>
+   <stop id="stop3756-1-6-2-6-6-1-96-6-0" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient5280" y2="44.918" xlink:href="#linearGradient2867-449-88-871-390-598-476-591-434-148-57-177-8-3-3-6-4-8-8-8-5" gradientUnits="userSpaceOnUse" x2="24.17" y1="1.8432" x1="24.439"/>
+  <linearGradient id="linearGradient4689" y2="59.989" gradientUnits="userSpaceOnUse" x2="31.307" y1="4.348" x1="29.999">
+   <stop id="stop4685" stop-color="#00c3ff" offset="0"/>
+   <stop id="stop4687" stop-color="#00c3ff" stop-opacity="0" offset="1"/>
+  </linearGradient>
+ </defs>
+ <metadata id="metadata6654">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <rect id="rect5505-21" style="color:#000000" rx="1.5" ry="1.5" height="42" width="38" stroke="#1d1d1d" y="2" x="5" fill="url(#linearGradient5280)"/>
+ <g id="g3712-5" opacity=".5" transform="matrix(1.1579 0 0 .64286 -3.7895 16.036)">
+  <rect id="rect2801-3" height="7" width="5" y="40" x="38" fill="url(#radialGradient3013)"/>
+  <rect id="rect3696-6" transform="scale(-1)" height="7" width="5" y="-47" x="-10" fill="url(#radialGradient3015)"/>
+  <rect id="rect3700-4" height="7" width="28" y="40" x="10" fill="url(#linearGradient6647)"/>
+ </g>
+ <rect id="rect5282" style="color:#000000" rx="1.5" ry="1.5" height="42" width="38" y="2" x="5" fill="url(#linearGradient5280)"/>
+ <rect id="rect6741" opacity=".4" stroke-linejoin="round" rx="1" ry="1" height="41" width="37" stroke="url(#linearGradient4650)" stroke-linecap="round" y="2.5" x="5.5" fill="none"/>
+ <path id="path4464" opacity=".15" style="color-rendering:auto;text-decoration-color:#000000;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;block-progression:tb;text-decoration-line:none;text-decoration-style:solid;image-rendering:auto;white-space:normal;text-indent:0;text-transform:none" d="m24 29c-3.3019 0-6 2.6981-6 6s2.6981 6 6 6 6-2.6981 6-6-2.6981-6-6-6zm0 2c2.221 0 4 1.779 4 4s-1.779 4-4 4-4-1.779-4-4 1.779-4 4-4zc-2.1973 0-4 1.8027-4 4s1.8027 4 4 4 4-1.8027 4-4-1.8027-4-4-4zm0 2c1.1164 0 2 0.88359 2 2s-0.88359 2-2 2-2-0.88359-2-2 0.88359-2 2-2z"/>
+ <rect id="rect5505-21-3-2" opacity=".7" stroke-linejoin="round" style="color:#000000" rx="2" ry="2.2051" height="43" width="39" stroke="#000" stroke-linecap="round" y="1.5" x="4.5" fill="none"/>
+ <rect id="rect4717" opacity=".15" fill-rule="evenodd" rx="0.6" ry="0.6" height="21" width="32" y="6" x="8" fill="url(#linearGradient4721)"/>
+ <rect id="rect4140" stroke-linejoin="round" height="18.814" stroke="#1d1d1d" stroke-linecap="round" stroke-width="1.2388" fill="url(#radialGradient2429)" fill-rule="evenodd" rx="0" ry="0" width="28.706" stroke-miterlimit="3.4286" y="6.5927" x="9.6469"/>
+ <g id="g4599" fill="url(#linearGradient4689)" transform="matrix(.27831 0 0 .27481 15 6.9628)">
+  <g id="g4429" fill="url(#linearGradient4689)">
+   <g id="g4431" fill="url(#linearGradient4689)">
+    <rect id="rect4433" height="2.266" width="5.948" y="11.522" x="40.088"/>
+    <rect id="rect4435" height="2.267" width="5.948" y="15.032" x="40.088"/>
+    <rect id="rect4437" height="2.267" width="5.948" y="18.542" x="40.088"/>
+    <rect id="rect4439" height="2.267" width="5.948" y="22.051" x="40.088"/>
+    <rect id="rect4441" height="2.267" width="5.948" y="25.562" x="40.088"/>
+    <rect id="rect4443" height="2.267" width="5.948" y="29.07" x="40.088"/>
+    <rect id="rect4445" height="2.267" width="5.947" y="15.032" x="47.365"/>
+    <rect id="rect4447" height="2.267" width="5.947" y="18.542" x="47.365"/>
+    <rect id="rect4449" height="2.267" width="5.947" y="22.051" x="47.365"/>
+    <rect id="rect4451" height="2.267" width="5.947" y="25.562" x="47.365"/>
+    <rect id="rect4453" height="2.267" width="5.947" y="29.07" x="47.365"/>
+    <rect id="rect4455" height="2.267" width="5.948" y="22.051" x="54.597"/>
+    <rect id="rect4457" height="2.267" width="5.948" y="25.562" x="54.597"/>
+    <rect id="rect4459" height="2.267" width="5.948" y="29.07" x="54.597"/>
+    <rect id="rect4461" height="2.267" width="5.948" y="18.542" x="32.832"/>
+    <rect id="rect4463" height="2.267" width="5.948" y="22.051" x="32.832"/>
+    <rect id="rect4465" height="2.267" width="5.948" y="25.562" x="32.832"/>
+    <rect id="rect4467" height="2.267" width="5.948" y="29.07" x="32.832"/>
+    <rect id="rect4469" height="2.267" width="5.948" y="4.502" x="25.573"/>
+    <rect id="rect4471" height="2.267" width="5.948" y="8.012" x="25.573"/>
+    <rect id="rect4473" height="2.266" width="5.948" y="11.522" x="25.573"/>
+    <rect id="rect4475" height="2.267" width="5.948" y="15.032" x="25.573"/>
+    <rect id="rect4477" height="2.267" width="5.948" y="18.542" x="25.573"/>
+    <rect id="rect4479" height="2.267" width="5.948" y="22.051" x="25.573"/>
+    <rect id="rect4481" height="2.267" width="5.948" y="25.562" x="25.573"/>
+    <rect id="rect4483" height="2.267" width="5.948" y="29.07" x="25.573"/>
+    <rect id="rect4485" height="2.267" width="5.948" y="15.032" x="18.316"/>
+    <rect id="rect4487" height="2.267" width="5.948" y="18.542" x="18.316"/>
+    <rect id="rect4489" height="2.267" width="5.948" y="22.051" x="18.316"/>
+    <rect id="rect4491" height="2.267" width="5.948" y="25.562" x="18.316"/>
+    <rect id="rect4493" height="2.267" width="5.948" y="29.07" x="18.316"/>
+    <rect id="rect4495" height="2.267" width="5.948" y="22.051" x="11.101"/>
+    <rect id="rect4497" height="2.267" width="5.948" y="25.562" x="11.101"/>
+    <rect id="rect4499" height="2.267" width="5.948" y="29.07" x="11.101"/>
+    <rect id="rect4501" height="2.267" width="5.948" y="25.562" x="3.888"/>
+    <rect id="rect4503" height="2.267" width="5.948" y="29.07" x="3.888"/>
+    <rect id="rect4505" height="2.267" width="5.948" y="50.888" x="40.088"/>
+    <rect id="rect4507" height="2.266" width="5.948" y="47.379" x="40.088"/>
+    <rect id="rect4509" height="2.268" width="5.948" y="43.869" x="40.088"/>
+    <rect id="rect4511" height="2.267" width="5.948" y="40.36" x="40.088"/>
+    <rect id="rect4513" height="2.267" width="5.948" y="36.85" x="40.088"/>
+    <rect id="rect4515" height="2.266" width="5.947" y="47.379" x="47.365"/>
+    <rect id="rect4517" height="2.268" width="5.947" y="43.869" x="47.365"/>
+    <rect id="rect4519" height="2.267" width="5.947" y="40.36" x="47.365"/>
+    <rect id="rect4521" height="2.267" width="5.947" y="36.85" x="47.365"/>
+    <rect id="rect4523" height="2.267" width="5.948" y="40.36" x="54.597"/>
+    <rect id="rect4525" height="2.267" width="5.948" y="36.85" x="54.597"/>
+    <rect id="rect4527" height="2.268" width="5.948" y="43.869" x="32.832"/>
+    <rect id="rect4529" height="2.267" width="5.948" y="40.36" x="32.832"/>
+    <rect id="rect4531" height="2.267" width="5.948" y="36.85" x="32.832"/>
+    <rect id="rect4533" height="2.268" width="5.948" y="57.908" x="25.573"/>
+    <rect id="rect4535" height="2.267" width="5.948" y="54.398" x="25.573"/>
+    <rect id="rect4537" height="2.267" width="5.948" y="50.888" x="25.573"/>
+    <rect id="rect4539" height="2.266" width="5.948" y="47.379" x="25.573"/>
+    <rect id="rect4541" height="2.268" width="5.948" y="43.869" x="25.573"/>
+    <rect id="rect4543" height="2.267" width="5.948" y="40.36" x="25.573"/>
+    <rect id="rect4545" height="2.267" width="5.948" y="36.85" x="25.573"/>
+    <rect id="rect4547" height="2.266" width="5.948" y="47.379" x="18.316"/>
+    <rect id="rect4549" height="2.268" width="5.948" y="43.869" x="18.316"/>
+    <rect id="rect4551" height="2.267" width="5.948" y="40.36" x="18.316"/>
+    <rect id="rect4553" height="2.267" width="5.948" y="36.85" x="18.316"/>
+    <rect id="rect4555" height="2.267" width="5.948" y="40.36" x="11.101"/>
+    <rect id="rect4557" height="2.267" width="5.948" y="36.85" x="11.101"/>
+    <rect id="rect4559" height="2.267" width="5.948" y="36.85" x="3.888"/>
+    <polygon id="polygon4561" points="54.597 35.606 60.546 35.606 60.546 33.444 64.677 33.444 64.677 31.36 0 31.36 0 33.444 3.888 33.444 3.888 35.606 9.835 35.606 9.835 33.444 11.101 33.444 11.101 35.606 17.049 35.606 17.049 33.444 18.316 33.444 18.316 35.606 24.264 35.606 24.264 33.444 25.573 33.444 25.573 35.606 31.522 35.606 31.522 33.444 32.832 33.444 32.832 35.606 38.78 35.606 38.78 33.444 40.088 33.444 40.088 35.606 46.037 35.606 46.037 33.444 47.365 33.444 47.365 35.606 53.314 35.606 53.314 33.444 54.597 33.444"/>
+   </g>
+  </g>
+ </g>
+ <path id="rect6588" fill="url(#linearGradient2925)" d="m10.364 7.2497h27.273v6.0001l-27.273 5.2501v-11.25z"/>
+ <path id="path4458" d="m24 30a5 5 0 0 0 -5 5 5 5 0 0 0 5 5 5 5 0 0 0 5 -5 5 5 0 0 0 -5 -5zm0 2a3 3 0 0 1 3 3 3 3 0 0 1 -3 3 3 3 0 0 1 -3 -3 3 3 0 0 1 3 -3z" fill="#272727"/>
+</svg>

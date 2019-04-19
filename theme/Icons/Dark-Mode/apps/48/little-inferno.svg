@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg3143" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="48" width="48" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <defs id="defs3145">
+  <radialGradient id="radialGradient3030" gradientUnits="userSpaceOnUse" cy="43.5" cx="4.993" gradientTransform="matrix(2.0038 0 0 1.4 27.988 -17.4)" r="2.5">
+   <stop id="stop2883" stop-color="#181818" offset="0"/>
+   <stop id="stop2885" stop-color="#181818" stop-opacity="0" offset="1"/>
+  </radialGradient>
+  <radialGradient id="radialGradient3032" gradientUnits="userSpaceOnUse" cy="43.5" cx="4.993" gradientTransform="matrix(2.0038 0 0 1.4 -20.012 -104.4)" r="2.5">
+   <stop id="stop2889" stop-color="#181818" offset="0"/>
+   <stop id="stop2891" stop-color="#181818" stop-opacity="0" offset="1"/>
+  </radialGradient>
+  <linearGradient id="linearGradient3034" y2="39.999" gradientUnits="userSpaceOnUse" x2="25.058" y1="47.028" x1="25.058">
+   <stop id="stop2895" stop-color="#181818" stop-opacity="0" offset="0"/>
+   <stop id="stop2897" stop-color="#181818" offset=".5"/>
+   <stop id="stop2899" stop-color="#181818" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient3044" y2="43" gradientUnits="userSpaceOnUse" x2="24" gradientTransform="translate(.0000053 1)" y1="5" x1="24">
+   <stop id="stop3926-7" stop-color="#fff" offset="0"/>
+   <stop id="stop3928-3" stop-color="#fff" stop-opacity=".23529" offset=".063165"/>
+   <stop id="stop3930-7" stop-color="#fff" stop-opacity=".15686" offset=".95056"/>
+   <stop id="stop3932-1" stop-color="#fff" stop-opacity=".39216" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient4271" y2="534.67" gradientUnits="userSpaceOnUse" x2="259.16" y1="-5.4632" x1="267.83">
+   <stop id="stop4267" stop-color="#ff6161" offset="0"/>
+   <stop id="stop4269" stop-color="#fff26b" offset="1"/>
+  </linearGradient>
+ </defs>
+ <metadata id="metadata3148">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="g4291">
+  <g id="g3712-5" opacity=".6" transform="matrix(1.1579 0 0 .64286 -3.7895 16.036)">
+   <rect id="rect2801-3" height="7" width="5" y="40" x="38" fill="url(#radialGradient3030)"/>
+   <rect id="rect3696-6" transform="scale(-1)" height="7" width="5" y="-47" x="-10" fill="url(#radialGradient3032)"/>
+   <rect id="rect3700-4" height="7" width="28" y="40" x="10" fill="url(#linearGradient3034)"/>
+  </g>
+  <rect id="rect4285" style="color:#000000" rx="2" ry="2" height="39" width="39" y="5.5" x="4.5" fill="#353535"/>
+  <path id="path4273" style="color-rendering:auto;text-decoration-color:#000000;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;block-progression:tb;text-decoration-line:none;text-decoration-style:solid;image-rendering:auto;white-space:normal;text-indent:0;text-transform:none" d="m23.984 33.97c-0.552 0.009-0.993 0.463-0.984 1.016v9.514h2v-9.5142c0.0088-0.56453-0.45109-1.0245-1.0156-1.0156z" fill-rule="evenodd" fill="#ffeaa2"/>
+  <rect id="rect6741-2" opacity=".5" stroke-linejoin="round" rx="1" ry="1" height="37" width="37" stroke="url(#linearGradient3044)" stroke-linecap="round" y="6.5" x="5.5" fill="none"/>
+  <rect id="rect5505-21-1" opacity=".4" stroke-linejoin="round" style="color:#000000" rx="2" ry="2" height="39" width="39" stroke="#1f1f1f" stroke-linecap="round" y="5.5" x="4.5" fill="none"/>
+  <ellipse id="path4281" rx="7.2736" ry="9.8545" cy="29.183" cx="23.598" fill="#fff"/>
+  <g id="g4246" fill="url(#linearGradient4271)" transform="matrix(.047510 0 0 .048750 11.331 11)">
+   <g id="g4206" fill="url(#linearGradient4271)">
+    <path id="path4208" fill="url(#linearGradient4271)" d="m165.49 533.33c-35.545-73.962-16.616-116.34 10.703-156.27 29.917-43.728 37.627-87.013 37.627-87.013s23.518 30.573 14.11 78.39c41.548-46.25 49.389-119.94 43.115-148.16 93.914 65.63 134.05 207.74 79.96 313.05 287.7-162.78 71.562-406.34 33.934-433.78 12.543 27.435 14.922 73.88-10.416 96.42-42.88-162.64-148.94-195.97-148.94-195.97 12.55 83.877-45.46 175.6-101.4 244.13-1.97-33.45-4.05-56.53-21.64-88.53-3.95 60.76-50.383 110.28-62.957 171.16-17.032 82.44 12.758 142.8 125.91 206.57z"/>
+   </g>
+  </g>
+  <ellipse id="path4279" rx="2" ry="4" cy="36" cx="24" fill="#5d5d5d"/>
+ </g>
+</svg>

@@ -1,0 +1,38 @@
+### Install elementary tweaks ###
+
+sudo add-apt-repository ppa:philip.scott/elementary-tweaks
+sudo apt-get update
+sudo apt-get elementary-tweaks
+
+
+
+Open folder as admin
+
+copy  icons to /usr/share/icons
+copy  theme to usr/share/themes
+
+
+       OR
+
+### Type in your terminal ###    
+
+mkdir .icons
+mkdir .themes
+
+Go to your home folder use the keyboard combination ctrl + h   to view hidden files
+
+copy icons to .icons folder
+copy themes to .themes folder
+
+
+### Home directory ###
+go to your home folder use the keyboard combination ctrl + h   to view hidden files
+copy  plank theme to .local/share/plank/themes
+
+
+run on terminal 
+sudo apt-get install gdebi
+
+install desktop folder to activate desktop icons
+
+
