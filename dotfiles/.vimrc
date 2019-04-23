@@ -5,10 +5,13 @@ set nojs vi=""
 set mps+=<:>
 set clipboard=autoselect,exclude:.*
 
+vnoremap cp "*y
+noremap test :source $VIMRUNTIME/syntax/hitest.vim<CR>
+
 " Stop points
 set <C-Right>=^[[1;5C 
 map <C-Right> <Esc>G/<++>;<CR>"_c5l
-inoremap <C-Right> <Esc>G/<++>;<CR>"_c5l
+map <C-Right> <Esc>G/<++>;<CR>"_c5l
 
 autocmd FileType html setlocal ts=2 sw=2
 autocmd FileType xml setlocal ts=2 sw=2
