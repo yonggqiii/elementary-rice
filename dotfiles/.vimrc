@@ -10,14 +10,16 @@ noremap test :source $VIMRUNTIME/syntax/hitest.vim<CR>
 
 " Stop points
 set <C-Right>=^[[1;5C 
-map <C-Right> <Esc>G/<++>;<CR>"_c5l
-map <C-Right> <Esc>G/<++>;<CR>"_c5l
+inoremap <C-Right> <Esc>G/<++>;<CR>"_c5l
+map <C-Right> G/<++>;<CR>"_c5l
 
 autocmd FileType html setlocal ts=2 sw=2
 autocmd FileType xml setlocal ts=2 sw=2
 autocmd FileType javascript setlocal ts=2 sw=2
 autocmd FileType css setlocal ts=2 sw=2
 autocmd FileType yml setlocal ts=2 sw=2
+
+inoremap INITLATEX \documentclass[12pt]{article}<CR>\usepackage{amsmath}<CR>\usepackage[margin=1in]{geometry}<CR>\usepackage{amssymb}<CR>\begin{document}<CR><CR>\title{<++>;}<CR>\author{<++>;}<CR>\maketitle<CR><CR>\section{<++>;}<CR>\subsection{<++>;}<CR><CR>\end{document}<CR><Esc>/<++>;<CR>"_c5li
 
 autocmd FileType java inoremap For for (int i = 0<++>;; i < n<++>;; ++i<++>;) {<CR><++>;<CR>}<Esc>G/<++>;<CR>"_c5l
 autocmd FileType java inoremap newclass <++>;class <++>; {<CR><CR><++>;<CR><CR>}<Esc>G/<++>;<CR>"_c5l
@@ -33,12 +35,23 @@ autocmd FileType c inoremap newFunc <++>;{<CR><++>;<CR>}<Esc>gg/int main(<CR>i<C
 autocmd FileType c inoremap pf printf();<LEFT><LEFT>
 autocmd FileType c inoremap sf scanf();<LEFT><LEFT>
 
+autocmd FileType tex inoremap () \left(<++>;\right)<++>;<Esc>G/<++>;<CR>"_c5l
+autocmd FileType tex inoremap ARRAY \begin{array}{<++>;}<CR><++>;<CR>\end{array}<Esc>G/<++>;<CR>"_c5l
+autocmd FileType tex inoremap [] \left[<++>;\right]<++>;<Esc>G/<++>;<CR>"_c5l
+autocmd FileType tex inoremap TEXT \textrm{}<++>;<LEFT>
+autocmd FileType tex inoremap ITEMIZE \begin{itemize}<CR><++>;<CR>\end{itemize}<Esc>G/<++>;<CR>"_c5l
+autocmd FileType tex inoremap MM $$<++>;<LEFT><LEFT><LEFT><LEFT><LEFT><LEFT>
+autocmd FileType tex inoremap IM $$$$<++>;<LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT>
+autocmd FileType tex inoremap FRAC \frac{<++>;}{<++>;}<++>;
+autocmd FileType tex inoremap INT \int_{<++>;}^{<++>;}{<++>;}<++>;
+autocmd FileType tex inoremap SUM \sum_{<++>;}^{<++>;}{<++>;}<++>;
+
+
 
 " Shortcuts
 ia teh the
 ia hte the
 ia oyu you
-color mycolor 
 
 " Zen mode
 map <F2> :Goyo<CR>
@@ -74,3 +87,4 @@ endfunction
 autocmd! User GoyoEnter call <SID>goyo_enter()
 autocmd! User GoyoLeave call <SID>goyo_leave()
 call plug#end()
+color lighttheme

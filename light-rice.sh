@@ -9,3 +9,6 @@ cd
 PATHTOHOME=$(pwd)
 gsettings set org.gnome.desktop.background picture-uri "file://$PATHTOHOME/.local/share/backgrounds/mywallpaper-light.png"
 gsettings set org.gnome.desktop.interface gtk-theme Sierra-light-solid
+sed "/color/d" .vimrc -i
+echo "color lighttheme" >> .vimrc
+

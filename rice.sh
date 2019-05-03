@@ -51,4 +51,5 @@ gsettings set org.pantheon.desktop.gala.behavior hotcorner-bottomleft "show-work
 gsettings set org.pantheon.desktop.gala.behavior hotcorner-bottomright "show-workspace-view"
 gsettings set org.pantheon.desktop.gala.mask-corners corner-radius 32
 gsettings set org.pantheon.desktop.gala.appearance button-layout :minimize,maximize,close
+gsettigs set io.elementary.terminal.settings tab-bar-behavior 'Never Show Tabs'
 

@@ -7,4 +7,7 @@ cd
 PATHTOHOME=$(pwd)
 gsettings set org.gnome.desktop.background picture-uri "file://$PATHTOHOME/.local/share/backgrounds/mywallpaper.png"
 gsettings set org.gnome.desktop.interface gtk-theme Sierra-dark
+sed "/color/d" .vimrc -i
+echo "color darktheme" >> .vimrc
+
 
