@@ -11,4 +11,7 @@ gsettings set org.gnome.desktop.background picture-uri "file://$PATHTOHOME/.loca
 gsettings set org.gnome.desktop.interface gtk-theme Sierra-light-solid
 sed "/color/d" .vimrc -i
 echo "color lighttheme" >> .vimrc
+sed "s/Neon Vommit/Solarized Custom Light/g" ~/.config/Code/User/settings.json -i
+
+
 
