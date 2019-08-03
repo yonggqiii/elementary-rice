@@ -28,6 +28,12 @@ sudo apt-get install ranger
 echo "Installing htop"
 sudo apt-get install htop
 
+echo "Installing impressive"
+sudo apt-get install impressive
+
+echo "Installing syncthing"
+sudo apt-get install syncthing
+
 echo "Copying dotfiles"
 cp ./dotfiles/.vimrc ~/
 cp ./dotfiles/.bashrc ~/
@@ -39,13 +45,17 @@ cp ./dotfiles/mycolor.vim ~/.vim/colors
 mkdir ~/.vim/autoload/
 cp ./dotfiles/plug.vim ~/.vim/autoload/
 cp ./dotfiles/rc.conf ~/.config/ranger/
+mkdir ~/texmf
+mkdir ~/texmf/tex
+mkdir ~/texmf/tex/latex
+mkdir ~/texmf/tex/latex/beamer
+cp ./dotfiles/beamerthemepeatree.sty ~/texmf/tex/latex/beamer/
 
 echo "Copying backgrounds"
 mkdir ~/.local/share/backgrounds/
 cp ./background/* ~/.local/share/backgrounds
 
 echo "Ricing..."
-gsettings set org.pantheon.desktop.gala.behavior hotcorner-topleft "minimize-current"
 gsettings set org.pantheon.desktop.gala.behavior hotcorner-topright "maximize-current"
 gsettings set org.pantheon.desktop.gala.behavior hotcorner-bottomleft "show-workspace-view"
 gsettings set org.pantheon.desktop.gala.behavior hotcorner-bottomright "show-workspace-view"

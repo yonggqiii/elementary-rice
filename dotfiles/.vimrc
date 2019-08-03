@@ -3,7 +3,10 @@ set lbr nu et ts=4 sw=4 ai si sc bs=2 wb nobk vb so=1 ru ls=2 ww=b,s,h,l,<,>,[,]
 set com=sr:/*,mb:*,el:*/,://,b:#,:%,:XCOMM,n:>,fb:-,n:\:
 set nojs vi=""
 set mps+=<:>
-set clipboard=autoselect,exclude:.*
+set clipboard=unnamedplus
+
+" Quick compile / run
+map <F6> <Esc>:w<CR>:! pandoc --latex-engine xelatex -t beamer %:r.md -o %:r.pdf <CR>:! impressive -t None %:r.pdf<CR>
 
 vnoremap cp "*y
 noremap test :source $VIMRUNTIME/syntax/hitest.vim<CR>
@@ -18,8 +21,6 @@ autocmd FileType xml setlocal ts=2 sw=2
 autocmd FileType javascript setlocal ts=2 sw=2
 autocmd FileType css setlocal ts=2 sw=2
 autocmd FileType yml setlocal ts=2 sw=2
-
-inoremap INITLATEX \documentclass[12pt]{article}<CR>\usepackage{amsmath}<CR>\usepackage[margin=1in]{geometry}<CR>\usepackage{amssymb}<CR>\begin{document}<CR><CR>\title{<++>;}<CR>\author{<++>;}<CR>\maketitle<CR><CR>\section{<++>;}<CR>\subsection{<++>;}<CR><CR>\end{document}<CR><Esc>/<++>;<CR>"_c5li
 
 autocmd FileType java inoremap For for (int i = 0<++>;; i < n<++>;; ++i<++>;) {<CR><++>;<CR>}<Esc>G/<++>;<CR>"_c5l
 autocmd FileType java inoremap newclass <++>;class <++>; {<CR><CR><++>;<CR><CR>}<Esc>G/<++>;<CR>"_c5l
@@ -45,7 +46,8 @@ autocmd FileType tex inoremap IM $$$$<++>;<LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><L
 autocmd FileType tex inoremap FRAC \frac{<++>;}{<++>;}<++>;
 autocmd FileType tex inoremap INT \int_{<++>;}^{<++>;}{<++>;}<++>;
 autocmd FileType tex inoremap SUM \sum_{<++>;}^{<++>;}{<++>;}<++>;
-
+autocmd FileType tex map <F6> <Esc>:w<CR>:! pdflatex %<CR><CR>
+autocmd FileType tex inoremap <F6> <Esc>:w<CR>:! pdflatex %<CR><CR>
 
 
 " Shortcuts
@@ -87,4 +89,4 @@ endfunction
 autocmd! User GoyoEnter call <SID>goyo_enter()
 autocmd! User GoyoLeave call <SID>goyo_leave()
 call plug#end()
-color lighttheme
+color darktheme

@@ -9,5 +9,5 @@ cp ~/.bashrc ./dotfiles/
 cp ~/.devilspie/*.ds ./dotfiles
 
 # Adding ranger config
-cp ~/.config/ranger/rc.conf ./dotfiles
+cp ~/.config/ranger/rc.conf ./dotfiles/
 

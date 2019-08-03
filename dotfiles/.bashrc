@@ -187,5 +187,5 @@ export PS1="${debian_chroot:+($debian_chroot)}\[\033[00;30m\]╭[\[\033[01;32m\]
 #fi
 
 alias r='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
-
+alias present='impressive -t None'
 neofetch
