@@ -35,5 +35,6 @@
   "eslint.autoFixOnSave": true,
   "prettier.javascriptEnable": [
   ],
-  "prettier.tabWidth": 2
+  "prettier.tabWidth": 2,
+  "editor.selectionClipboard": false
 }

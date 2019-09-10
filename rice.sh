@@ -1,10 +1,13 @@
+echo "Adding repositories"
+sudo add-apt-repository ppa:philip.scott/elementary-tweaks
+sudo add-apt-repository ppa:numix/ppa
+sudo add-apt-repository ppa:peterlevi/ppa
+
 echo "Fetching updates"
 sudo apt-get update
 sudo apt-get upgrade
 
 echo "Installing elementary tweaks"
-sudo add-apt-repository ppa:philip.scott/elementary-tweaks
-sudo apt-get update
 sudo apt-get install elementary-tweaks
 
 echo "Installing devilspie"
@@ -34,6 +37,12 @@ sudo apt-get install impressive
 echo "Installing syncthing"
 sudo apt-get install syncthing
 
+echo "Installing icons"
+sudo apt-get install numix-icon-theme-circle
+
+echo "Installing Variety"
+sudo apt-get install variety variety-slideshow
+
 echo "Copying dotfiles"
 cp ./dotfiles/.vimrc ~/
 cp ./dotfiles/.bashrc ~/
@@ -50,6 +59,11 @@ mkdir ~/texmf/tex
 mkdir ~/texmf/tex/latex
 mkdir ~/texmf/tex/latex/beamer
 cp ./dotfiles/beamerthemepeatree.sty ~/texmf/tex/latex/beamer/
+mkdir ~/.config/variety/
+cp ./dotfiles/variety.conf ~/.config/variety/
+mkdir ~/.config/Code/
+mkdir ~/.config/Code/User/
+cp ./dotfiles/settings.json ~/.config/Code/User/
 
 echo "Copying backgrounds"
 mkdir ~/.local/share/backgrounds/
@@ -59,7 +73,17 @@ echo "Ricing..."
 gsettings set org.pantheon.desktop.gala.behavior hotcorner-topright "maximize-current"
 gsettings set org.pantheon.desktop.gala.behavior hotcorner-bottomleft "show-workspace-view"
 gsettings set org.pantheon.desktop.gala.behavior hotcorner-bottomright "show-workspace-view"
-gsettings set org.pantheon.desktop.gala.mask-corners corner-radius 32
+gsettings set org.pantheon.desktop.gala.mask-corners corner-radius 1
 gsettings set org.pantheon.desktop.gala.appearance button-layout :minimize,maximize,close
-gsettigs set io.elementary.terminal.settings tab-bar-behavior 'Never Show Tabs'
+gsettings set io.elementary.terminal.settings tab-bar-behavior 'Never Show Tabs'
+gsettings set org.gnome.desktop.interface icon-theme 'Numix-Circle'
+gsettings set io.elementary.terminal.settings background "rgb(23,31,37)"
+gsettings set io.elementary.terminal.settings cursor-color "#c4c5b5"
+gsettings set io.elementary.terminal.settings foreground "#ffffff"
+gsettings set io.elementary.terminal.settings palette "#ff0000:#ff6600:#ffd400:#01c10b:#00a9ff:#817cff:#ff0094:#00fffa:#ff0000:#ff6600:#ffd400:#01c10b:#00a9ff:#817cff:#ff0094:#00fffa"
+cd
+PATHTOHOME=$(pwd)
+gsettings set org.gnome.desktop.interface gtk-theme Sierra-dark
+sed "/color/d" .vimrc -i
+echo "color darktheme" >> .vimrc
 
