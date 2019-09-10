@@ -77,10 +77,13 @@ gsettings set org.pantheon.desktop.gala.mask-corners corner-radius 1
 gsettings set org.pantheon.desktop.gala.appearance button-layout :minimize,maximize,close
 gsettings set io.elementary.terminal.settings tab-bar-behavior 'Never Show Tabs'
 gsettings set org.gnome.desktop.interface icon-theme 'Numix-Circle'
-gsettings set io.elementary.terminal.settings background "rgb(23,31,37)"
+gsettings set io.elementary.terminal.settings background "#12120E"
 gsettings set io.elementary.terminal.settings cursor-color "#c4c5b5"
 gsettings set io.elementary.terminal.settings foreground "#ffffff"
 gsettings set io.elementary.terminal.settings palette "#ff0000:#ff6600:#ffd400:#01c10b:#00a9ff:#817cff:#ff0094:#00fffa:#ff0000:#ff6600:#ffd400:#01c10b:#00a9ff:#817cff:#ff0094:#00fffa"
+
+gsettings set io.elementary.terminal.settings palette "#000000:#f25056:#9cf196:#f0f69f:#a4d7e1:#e5b0ea:#7fe7cc:#dfdfdf:#f25056:#b0e0a8:#f0f69f:#e3c876:#a4d7e1:#e5b0ea:#7fe7cc:#ffffff"
+
 cd
 PATHTOHOME=$(pwd)
 gsettings set org.gnome.desktop.interface gtk-theme Sierra-dark
