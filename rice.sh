@@ -19,8 +19,17 @@ sudo apt-get install dconf-editor
 echo "Installing vim"
 sudo apt-get install vim
 
+echo "Installing nvim"
+curl -LO https://github.com/neovim/neovim/releases/download/stable/nvim.appimage
+chmod u+x nvim.appimage
+mv nvim.appimage nvim
+sudo mv nvim /usr/bin/
+
 echo "Copying theme"
 sudo cp -r theme/Themes/* /usr/share/themes/
+
+echo "Copying font"
+sudo cp ./dotfiles/Code New Roman Nerd Font Complete Mono.otf /usr/share/fonts/opentype/
 
 echo "Installing neofetch"
 sudo apt-get install neofetch
@@ -48,17 +57,17 @@ cp ./dotfiles/.vimrc ~/
 cp ./dotfiles/.bashrc ~/
 mkdir ~/.devilspie
 mkdir ~/.vim
+mkdir ~/.config/nvim
+mkdir ~/.config/nvim/autoload
+mkdir ~/.config/nvim/colors
+cp ./dotfiles/init.vim ~/.config/nvim/
 cp ./dotfiles/*.ds ~/.devilspie
 mkdir ~/.vim/colors
 cp ./dotfiles/mycolor.vim ~/.vim/colors
+cp ./dotfiles/mycolor.vim ~/.config/nvim/colors/
 mkdir ~/.vim/autoload/
 cp ./dotfiles/plug.vim ~/.vim/autoload/
 cp ./dotfiles/rc.conf ~/.config/ranger/
-mkdir ~/texmf
-mkdir ~/texmf/tex
-mkdir ~/texmf/tex/latex
-mkdir ~/texmf/tex/latex/beamer
-cp ./dotfiles/beamerthemepeatree.sty ~/texmf/tex/latex/beamer/
 mkdir ~/.config/variety/
 cp ./dotfiles/variety.conf ~/.config/variety/
 mkdir ~/.config/Code/
@@ -87,6 +96,4 @@ gsettings set io.elementary.terminal.settings palette "#000000:#f25056:#9cf196:#
 cd
 PATHTOHOME=$(pwd)
 gsettings set org.gnome.desktop.interface gtk-theme Sierra-dark
-sed "/color/d" .vimrc -i
-echo "color darktheme" >> .vimrc
 
