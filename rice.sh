@@ -29,7 +29,7 @@ echo "Copying theme"
 sudo cp -r theme/Themes/* /usr/share/themes/
 
 echo "Copying font"
-sudo cp ./dotfiles/Code New Roman Nerd Font Complete Mono.otf /usr/share/fonts/opentype/
+sudo cp ./dotfiles/Code\ New\ Roman\ Nerd\ Font\ Complete\ Mono.otf /usr/share/fonts/opentype/
 
 echo "Installing neofetch"
 sudo apt-get install neofetch
